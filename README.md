@@ -60,14 +60,15 @@ The analysis uses five interconnected CSV files:
 - **matplotlib** - Data visualization
 - **Jupyter Notebook** - Interactive analysis environment
 
-## Project Structure
+## Repository Structure
 
 ```
 eda-analysis-project/
-├── instacart-market-basket-analysis.ipynb    # Main analysis notebook
-├── instacart-market-basket-analysis.html     # HTML export for web viewing
-├── README.md                                  # This file
-├── requirements.txt                           # Python dependencies
+│
+├── README.md
+├── requirements.txt
+├── index.html
+├── instacart-market-basket-analysis.ipynb
 └── datasets/
     ├── instacart_orders.csv
     ├── products.csv
